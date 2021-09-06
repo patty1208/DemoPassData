@@ -14,6 +14,9 @@
 		C912E55926E525A70003E9E9 /* DemoPassData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C912E55726E525A70003E9E9 /* DemoPassData.xcdatamodeld */; };
 		C912E55B26E525AA0003E9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C912E55A26E525AA0003E9E9 /* Assets.xcassets */; };
 		C912E55E26E525AA0003E9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C912E55C26E525AA0003E9E9 /* LaunchScreen.storyboard */; };
+		C912E56826E52E460003E9E9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E56726E52E460003E9E9 /* ResultViewController.swift */; };
+		C912E56A26E52E550003E9E9 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E56926E52E550003E9E9 /* EditViewController.swift */; };
+		C912E56C26E52EA10003E9E9 /* LikeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E56B26E52EA10003E9E9 /* LikeList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		C912E55A26E525AA0003E9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C912E55D26E525AA0003E9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C912E55F26E525AA0003E9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C912E56726E52E460003E9E9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		C912E56926E52E550003E9E9 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		C912E56B26E52EA10003E9E9 /* LikeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		C912E54D26E525A70003E9E9 /* DemoPassData */ = {
 			isa = PBXGroup;
 			children = (
+				C912E56726E52E460003E9E9 /* ResultViewController.swift */,
+				C912E56926E52E550003E9E9 /* EditViewController.swift */,
 				C912E54E26E525A70003E9E9 /* AppDelegate.swift */,
 				C912E55026E525A70003E9E9 /* SceneDelegate.swift */,
 				C912E55226E525A70003E9E9 /* ViewController.swift */,
 				C912E55426E525A70003E9E9 /* Main.storyboard */,
+				C912E56B26E52EA10003E9E9 /* LikeList.swift */,
 				C912E55A26E525AA0003E9E9 /* Assets.xcassets */,
 				C912E55C26E525AA0003E9E9 /* LaunchScreen.storyboard */,
 				C912E55F26E525AA0003E9E9 /* Info.plist */,
@@ -144,6 +153,9 @@
 				C912E54F26E525A70003E9E9 /* AppDelegate.swift in Sources */,
 				C912E55126E525A70003E9E9 /* SceneDelegate.swift in Sources */,
 				C912E55926E525A70003E9E9 /* DemoPassData.xcdatamodeld in Sources */,
+				C912E56826E52E460003E9E9 /* ResultViewController.swift in Sources */,
+				C912E56A26E52E550003E9E9 /* EditViewController.swift in Sources */,
+				C912E56C26E52EA10003E9E9 /* LikeList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
